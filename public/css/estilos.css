@@ -1,0 +1,53 @@
+
+    /*CLASES CON PUNTO & ID CON #*/
+body{
+    background-image: url(../img/f4.jpg);
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*CLASES CON PUNTO & ID CON #*/
+/* HOLA */
+#hero{
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+}
+#heroImg{
+    height: 300px;
+    margin-top: -95px;
+    margin-left: -5%;
+}
+nav{
+    margin-top: -15%;
+    margin-left: 20%;
+    border-radius: 20px;
+    /* padding: 20px; */
+    background-color:hwb(0 0% 100%);
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 60px;
+    width: 70%;
+    margin-bottom: 50px;
+}
+li{
+    display: inline-block;
+
+    margin-right: 1px;
+    border-radius: 20px;
+    /* ARRIBA ABAJO IZQUIERDA DERECHA */
+    padding: 20px 0 0px 0px;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    text-decoration: none;
+    text-align:center;
+}
+li a{
+    color: rgb(242, 235, 241);
+    text-decoration: none;
+}
+li a:hover, li:hover{
+    color: rgb(40, 168, 196);
+    background-color: rgb(26, 24, 24);
+}
